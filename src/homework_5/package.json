@@ -1,0 +1,20 @@
+{
+  "name": "homework_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start-server": "nodemon src/server.js ",
+    "start-front": "browser-sync start -s 'src' --files 'src'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladislav Nesvit",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io-client": "^4.7.2",
+    "ws": "^8.13.0"
+  }
+}

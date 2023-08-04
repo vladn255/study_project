@@ -3,4 +3,4 @@
 Скрипт находится а файле src/homework_1/tree-util.js, он принимает два обязательных аргумента: путь к искомой директории и глубину вложенности.
 
 Пример команды запуска скрипта:
-   `node src/homework_1/tree-util.js src/homework_1/test-dir-tree 4`
+   `node src/homework_1 src/homework_1/test-dir-tree 4`
